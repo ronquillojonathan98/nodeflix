@@ -10,7 +10,7 @@ const partialsPath = path.join(__dirname, '../templates/partials')
 
 const app = express()
 
-const port = process.env.port || 2021
+const port = process.env.PORT || 2021
 
 app.use(express.static(publicPath))
 app.use(routes)
